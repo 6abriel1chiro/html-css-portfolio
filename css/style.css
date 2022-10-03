@@ -112,6 +112,27 @@ text-align:center;
      display:none;
       
     }
+
+    .row{
+      display:flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      width:100%;
+      margin-left:50px;
+      margin-bottom:25px;
+    }
+    .column{
+       display:flex;
+       flex-direction:column;
+       flex:1;
+    }
+
+    #projects-section:not(:first-child) {
+      display: none;
+
+    }
+
+   
   }
 
   .row{
